@@ -1,0 +1,9 @@
+J:\CSharp Tutorial\Chap2Program1\Chap2Program1\bin\Debug\Chap2Program1.exe.config
+J:\CSharp Tutorial\Chap2Program1\Chap2Program1\bin\Debug\Chap2Program1.exe
+J:\CSharp Tutorial\Chap2Program1\Chap2Program1\bin\Debug\Chap2Program1.pdb
+J:\CSharp Tutorial\Chap2Program1\Chap2Program1\obj\Debug\Chap2Program1.csprojResolveAssemblyReference.cache
+J:\CSharp Tutorial\Chap2Program1\Chap2Program1\obj\Debug\Chap2Program1.Form1.resources
+J:\CSharp Tutorial\Chap2Program1\Chap2Program1\obj\Debug\Chap2Program1.Properties.Resources.resources
+J:\CSharp Tutorial\Chap2Program1\Chap2Program1\obj\Debug\Chap2Program1.csproj.GenerateResource.Cache
+J:\CSharp Tutorial\Chap2Program1\Chap2Program1\obj\Debug\Chap2Program1.exe
+J:\CSharp Tutorial\Chap2Program1\Chap2Program1\obj\Debug\Chap2Program1.pdb
