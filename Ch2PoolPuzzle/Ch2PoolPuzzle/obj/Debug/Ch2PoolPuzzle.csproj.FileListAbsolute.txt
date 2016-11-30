@@ -1,0 +1,9 @@
+J:\CSharp Tutorial\Ch2PoolPuzzle\Ch2PoolPuzzle\bin\Debug\Ch2PoolPuzzle.exe.config
+J:\CSharp Tutorial\Ch2PoolPuzzle\Ch2PoolPuzzle\bin\Debug\Ch2PoolPuzzle.exe
+J:\CSharp Tutorial\Ch2PoolPuzzle\Ch2PoolPuzzle\bin\Debug\Ch2PoolPuzzle.pdb
+J:\CSharp Tutorial\Ch2PoolPuzzle\Ch2PoolPuzzle\obj\Debug\Ch2PoolPuzzle.csprojResolveAssemblyReference.cache
+J:\CSharp Tutorial\Ch2PoolPuzzle\Ch2PoolPuzzle\obj\Debug\Ch2PoolPuzzle.Form1.resources
+J:\CSharp Tutorial\Ch2PoolPuzzle\Ch2PoolPuzzle\obj\Debug\Ch2PoolPuzzle.Properties.Resources.resources
+J:\CSharp Tutorial\Ch2PoolPuzzle\Ch2PoolPuzzle\obj\Debug\Ch2PoolPuzzle.csproj.GenerateResource.Cache
+J:\CSharp Tutorial\Ch2PoolPuzzle\Ch2PoolPuzzle\obj\Debug\Ch2PoolPuzzle.exe
+J:\CSharp Tutorial\Ch2PoolPuzzle\Ch2PoolPuzzle\obj\Debug\Ch2PoolPuzzle.pdb
