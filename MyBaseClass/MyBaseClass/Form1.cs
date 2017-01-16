@@ -31,13 +31,29 @@ namespace MyBaseClass
             A a2 = new A();
             string q = "";
 
-            q += b.m1();
+            q += "BCA : "+b.m1();
             q += c.m2();
             q += a.m3();
 
+            q += ". CCC : " + c.m1();
+            q += c.m2();
+            q += c.m3();
+            
             System.Windows.Forms.MessageBox.Show(q);
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Employee E = new Employee();
+            E.GetInfo();
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            mySubClass md = new mySubClass();
+            mySubClass md1 = new mySubClass(1);
+            mySubClass md3 = new mySubClass("my sub class",33 );
+
+        }
     }
 }
