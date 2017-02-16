@@ -7,3 +7,6 @@ J:\CSharp Tutorial\2 Fun With If Else\2 Fun With If Else\bin\Debug\2 Fun With If
 J:\CSharp Tutorial\2 Fun With If Else\2 Fun With If Else\bin\Debug\2 Fun With If Else.pdb
 J:\CSharp Tutorial\2 Fun With If Else\2 Fun With If Else\obj\Debug\2 Fun With If Else.exe
 J:\CSharp Tutorial\2 Fun With If Else\2 Fun With If Else\obj\Debug\2 Fun With If Else.pdb
+J:\CSharp Practice\2 Fun With If Else\2 Fun With If Else\bin\Debug\2 Fun With If Else.exe.config
+J:\CSharp Practice\2 Fun With If Else\2 Fun With If Else\obj\Debug\2 Fun With If Else.exe
+J:\CSharp Practice\2 Fun With If Else\2 Fun With If Else\obj\Debug\2 Fun With If Else.pdb

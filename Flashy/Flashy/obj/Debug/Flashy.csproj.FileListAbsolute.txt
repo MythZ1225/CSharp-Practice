@@ -7,3 +7,12 @@ J:\CSharp Tutorial\Flashy\Flashy\obj\Debug\Flashy.Properties.Resources.resources
 J:\CSharp Tutorial\Flashy\Flashy\obj\Debug\Flashy.csproj.GenerateResource.Cache
 J:\CSharp Tutorial\Flashy\Flashy\obj\Debug\Flashy.exe
 J:\CSharp Tutorial\Flashy\Flashy\obj\Debug\Flashy.pdb
+J:\CSharp Practice\Flashy\Flashy\bin\Debug\Flashy.exe.config
+J:\CSharp Practice\Flashy\Flashy\obj\Debug\Flashy.exe
+J:\CSharp Practice\Flashy\Flashy\obj\Debug\Flashy.pdb
+J:\CSharp Practice\Flashy\Flashy\bin\Debug\Flashy.exe
+J:\CSharp Practice\Flashy\Flashy\bin\Debug\Flashy.pdb
+J:\CSharp Practice\Flashy\Flashy\obj\Debug\Flashy.csprojResolveAssemblyReference.cache
+J:\CSharp Practice\Flashy\Flashy\obj\Debug\Flashy.Form1.resources
+J:\CSharp Practice\Flashy\Flashy\obj\Debug\Flashy.Properties.Resources.resources
+J:\CSharp Practice\Flashy\Flashy\obj\Debug\Flashy.csproj.GenerateResource.Cache

@@ -25,14 +25,16 @@ namespace Flashy
                 for (c = 0; c < 256 && Visible; c++ )
                 {
                     this.BackColor = Color.FromArgb(c, 255 - c, c);
-                    Application.DoEvents();
+
                     System.Threading.Thread.Sleep(3);
+                    Application.DoEvents();
                 }
                 for (c = 254; c > 0 && Visible; c--)
                 {
                     this.BackColor = Color.FromArgb(c, 255 - c, c);
-                    Application.DoEvents();
+
                     System.Threading.Thread.Sleep(3);
+                    Application.DoEvents();
 
                 }
             }

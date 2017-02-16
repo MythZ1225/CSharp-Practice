@@ -7,3 +7,6 @@ J:\CSharp Tutorial\Ch2PoolPuzzle\Ch2PoolPuzzle\obj\Debug\Ch2PoolPuzzle.Propertie
 J:\CSharp Tutorial\Ch2PoolPuzzle\Ch2PoolPuzzle\obj\Debug\Ch2PoolPuzzle.csproj.GenerateResource.Cache
 J:\CSharp Tutorial\Ch2PoolPuzzle\Ch2PoolPuzzle\obj\Debug\Ch2PoolPuzzle.exe
 J:\CSharp Tutorial\Ch2PoolPuzzle\Ch2PoolPuzzle\obj\Debug\Ch2PoolPuzzle.pdb
+J:\CSharp Practice\Ch2PoolPuzzle\Ch2PoolPuzzle\bin\Debug\Ch2PoolPuzzle.exe.config
+J:\CSharp Practice\Ch2PoolPuzzle\Ch2PoolPuzzle\obj\Debug\Ch2PoolPuzzle.exe
+J:\CSharp Practice\Ch2PoolPuzzle\Ch2PoolPuzzle\obj\Debug\Ch2PoolPuzzle.pdb
