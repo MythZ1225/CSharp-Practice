@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace TallGuy_InterfaceTest
 {
-    public class TallGuy : IClown
+    public class TallGuy 
     {
         public string Name;
         public int Height;
@@ -17,7 +17,7 @@ namespace TallGuy_InterfaceTest
             MessageBox.Show("我叫" + Name + " 我身高" + Height + "公分");
         }
 
-        public string FunnyThingIHave
+        private string FunnyThingIHave
         { get { return "大鞋"; }
         }
 

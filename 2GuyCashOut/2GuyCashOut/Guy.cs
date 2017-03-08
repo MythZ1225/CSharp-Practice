@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace _2GuyCashOut
 {
-    class Guy
+    public class Guy
     {
         public string Name;
         public int Cash;

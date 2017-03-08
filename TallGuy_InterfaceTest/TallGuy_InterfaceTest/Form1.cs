@@ -19,9 +19,14 @@ namespace TallGuy_InterfaceTest
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TallGuy tallguy = new TallGuy() { Height = 184, Name = "姚明"};
+            /*TallGuy tallguy = new TallGuy() { Height = 184, Name = "姚明"};
             tallguy.TalkAboutYourself();
+            */
 
+            ScaryScary fingersTheClown = new ScaryScary("大鞋", 14 );
+            FunnyFunny someFunnyClown = fingersTheClown;
+            IScaryClown someOtherScaryClown = someFunnyClown as ScaryScary;
+            someOtherScaryClown.Honk();
         }
     }
 }

@@ -39,7 +39,7 @@ namespace BeeHive_Management
 
             shiftNum++;
             string report = "工班報告 #" + shiftNum + "\r\n";
-            report += "總蜂蜜消耗 :" + totalComption;
+            report += "總蜂蜜消耗 :" + totalComption + "\r\n";
                         
             for (int i = 0; i < workers.Length; i++)
             {
@@ -54,7 +54,7 @@ namespace BeeHive_Management
                 }
                 else if (workers[i].ShiftLeft >0)
                 {
-                    report += "工蜂 #" + (i + 1) + " 執行工作 '" + workers[i].CurrentJob+"' 還有 " + workers[i].ShiftLeft + " 班次 \r\n";
+                    report += "工蜂 #" + (i + 1) + " 執行工作 '" + workers[i].CurrentJob+"' 還有 " + workers[i].ShiftLeft + " 班次" +"消耗蜂蜜" + "\r\n";
                 }
                 else
                 {
@@ -63,6 +63,7 @@ namespace BeeHive_Management
             }
             return report;
         }
+
         public override double GetHoneyConsuption()
         {
             double HoneyConsuption = 0;
@@ -92,5 +93,7 @@ namespace BeeHive_Management
 
             return base.GetHoneyConsuption();
         }
+
+        private void DefendTheHive(IStingPatrol Patroller) { }
     }
 }

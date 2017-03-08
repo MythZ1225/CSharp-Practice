@@ -8,12 +8,12 @@ namespace BeeHive_Management
 {
     public class Bee
     {
+        private double weight;
         public Bee(double weight)
         {
             this.weight = weight;
         }
-        private double weight;
-
+                
         public virtual int ShiftLeft
         {
             get { return 0; }
