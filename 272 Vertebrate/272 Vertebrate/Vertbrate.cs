@@ -6,13 +6,20 @@ using System.Threading.Tasks;
 
 namespace _272_Vertebrate
 {
+    public class Food
+    {
+    }
+
     class Vertbrate
     {
-        public int NumOfLegs;
-        public void Eat()
+        public int NumOfLegs;        
+        public virtual void Eat(Food Morsel)
         {
-            //code to eat
+            Swallow(Morsel);
+            Digest();
         }
+        public void Swallow(Food Morsel) { }
+        public void Digest() { }
     }
 
     class bird : Vertbrate
@@ -23,4 +30,17 @@ namespace _272_Vertebrate
             //code to fly
         }
     }
+
+    class Chameleon : Vertbrate
+    {
+        public override void Eat(Food Morsel)
+        {
+            catchWithTongue(Morsel);
+            base.Eat(Morsel);
+        }
+        private void catchWithTongue(Food Morsel ) { }
+        
+    }
+
+
 }
