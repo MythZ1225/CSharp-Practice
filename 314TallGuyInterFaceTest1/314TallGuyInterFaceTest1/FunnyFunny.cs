@@ -14,7 +14,7 @@ namespace _314TallGuyInterFaceTest1
             this.funnyThingIHave = funnyThingIHave;
         }
 
-        private string funnyThingIHave;
+        protected string funnyThingIHave;
         public string FunnyThingIHave
         {
             get { return "齁齁! 我會" + funnyThingIHave; }

@@ -27,7 +27,7 @@ namespace _314TallGuyInterFaceTest1
 
         public void ScareLittleChildren()
         {
-            MessageBox.Show(this.ScaryThingIhave);
+            MessageBox.Show("你不能有"+base.funnyThingIHave);
         }
 
     }
