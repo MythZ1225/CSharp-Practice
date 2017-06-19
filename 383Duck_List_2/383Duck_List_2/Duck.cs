@@ -24,6 +24,11 @@ namespace _383Duck_List_2
                 return -1;
             else return 0;
         }
+
+        public override string ToString()
+        {
+            return Size +"吋"+ Kind.ToString();
+        }
     }
 
     enum KindOfDuck

@@ -53,7 +53,5 @@ namespace _383Duck_List_2
             Console.WriteLine("\n");
         }
 
-
-        
     }
 }
