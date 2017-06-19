@@ -46,7 +46,11 @@ namespace _383Duck_List_2
         {
             foreach (Duck duck in ducks)
             {
-                Console.WriteLine(duck.Size.ToString()+"吋"+ duck.Kind.ToString() );
+                //Console.WriteLine(duck.Size.ToString()+"吋"+ duck.Kind.ToString() );
+                //當 duck有 override string TOstring() 時
+                // duck 就可以產生 XX吋XXXX的字串了 
+                //利用這一點就可以改寫為下面的Code
+                Console.WriteLine(duck);
             }
             Console.WriteLine("沒了");
             Console.ReadKey();
