@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Card.cs" />
+    <Compile Include="CardComparer_BySuit.cs" />
+    <Compile Include="CardComparer_ByValue.cs" />
+    <Compile Include="Deck.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
