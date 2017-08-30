@@ -11,7 +11,7 @@ namespace _450_Swindler_StreamWiter
     {
         static void Main(string[] args)
         {
-            StreamWriter sw = new StreamWriter(@"C:\secret_plan.txt");
+            StreamWriter sw = new StreamWriter(@"L:\secret_plan.txt");
 
             sw.WriteLine("如何打敗超人");
             sw.WriteLine("我另一個絕妙的計畫");  //WriteLine 會換行
