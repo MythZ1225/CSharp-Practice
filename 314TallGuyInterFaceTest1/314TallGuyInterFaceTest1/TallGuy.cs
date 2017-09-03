@@ -17,13 +17,13 @@ namespace _314TallGuyInterFaceTest1
             MessageBox.Show("我叫" + Name + " 我身高" + Height + "公分");
         }
 
-        public string FunnyThingIHave
+        public string FunnyThingIHave   //由IClown 繼承
         {
             get { return "大鞋"; }
         }
 
-        public void Honk()
-           {
+        public void Honk()              //由IClown 繼承
+        {
             MessageBox.Show("齁齁");
            }
 
