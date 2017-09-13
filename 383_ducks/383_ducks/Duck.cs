@@ -28,6 +28,11 @@ namespace _383_ducks
 
             throw new NotImplementedException();
         }
+
+        public override string ToString()
+        {
+            return Kind.ToString() + size.ToString();
+        }
     }
 
     enum KindsOfDuck

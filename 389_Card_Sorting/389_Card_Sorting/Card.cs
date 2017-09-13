@@ -46,5 +46,10 @@ namespace _389_Card_Sorting
         {
            get { return suit.ToString() + value.ToString(); }
         }
+
+        public override string ToString()
+        {
+            return CardName;
+        }
     }
 }
