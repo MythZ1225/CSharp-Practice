@@ -38,6 +38,8 @@
             this.ShuffleBtn1 = new System.Windows.Forms.Button();
             this.ResetBtn2 = new System.Windows.Forms.Button();
             this.ShuffleBtn2 = new System.Windows.Forms.Button();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // label1
@@ -136,11 +138,15 @@
             this.ShuffleBtn2.UseVisualStyleBackColor = true;
             this.ShuffleBtn2.Click += new System.EventHandler(this.ShuffleBtn2_Click);
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(366, 456);
+            this.ClientSize = new System.Drawing.Size(361, 426);
             this.Controls.Add(this.ShuffleBtn2);
             this.Controls.Add(this.ResetBtn2);
             this.Controls.Add(this.ShuffleBtn1);
@@ -170,6 +176,8 @@
         private System.Windows.Forms.Button ShuffleBtn1;
         private System.Windows.Forms.Button ResetBtn2;
         private System.Windows.Forms.Button ShuffleBtn2;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 

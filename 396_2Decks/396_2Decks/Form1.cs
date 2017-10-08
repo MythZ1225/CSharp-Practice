@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace _396_2Decks
 {
@@ -15,6 +16,7 @@ namespace _396_2Decks
         Deck deck1;
         Deck deck2;
         Random random =new Random();
+        private string name;
 
         public Form1()
         {
@@ -41,7 +43,6 @@ namespace _396_2Decks
             {
                 deck2 = new Deck();
             }
-
         }
 
 
@@ -117,5 +118,11 @@ namespace _396_2Decks
             RedrawDeck(1);
             RedrawDeck(2);
         }
+        
+  
+
+
+
     }
+
 }

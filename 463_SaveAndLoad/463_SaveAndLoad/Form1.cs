@@ -28,7 +28,6 @@ namespace _463_SaveAndLoad
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 name = openFileDialog1.FileName;
-
                 textBox1.Clear();
                 textBox1.Text = File.ReadAllText(name);
             }
