@@ -100,11 +100,21 @@ namespace _467_Excuse_UsingDispose
 
         private void RandomBtn_Click(object sender, EventArgs e)
         {
-            if (CheckChange())
+            string[] fileName = Directory.GetFiles(selectFolder, ".excuse");
+            if (fileName.Length ==0)
             {
-                CurrentExcuse = new Excuse(random, selectFolder);
-                UpdateForm(false);
+                MessageBox.Show("這邊沒有藉口檔，需要指定新資料夾");
             }
+            else
+            {
+                if (CheckChange()==true)
+                {
+                    CurrentExcuse = new Excuse(random, selectFolder);
+                    UpdateForm(false);
+                }
+            }
+
+           
         }
 
         private bool CheckChange()
