@@ -28,7 +28,7 @@ namespace _467_Excuse_UsingDispose
 
         public Excuse(Random random, string folder)
         {
-            string[] fileNames = Directory.GetFiles(folder, "*.excuse");
+            string[] fileNames = Directory.GetFiles(folder, "*.txt");
             openFile(fileNames[random.Next(fileNames.Length)]);
         }
 

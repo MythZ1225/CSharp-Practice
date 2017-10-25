@@ -48,6 +48,11 @@ namespace _467_Excuse_UsingDispose
 
         private void FolderBtn_Click(object sender, EventArgs e)
         {
+            if (selectFolder == "")
+            {
+                selectFolder = @"L:\Temp";
+            }
+            
             folderBrowserDialog1.SelectedPath = selectFolder;
             DialogResult result = folderBrowserDialog1.ShowDialog();
             if (result == DialogResult.OK)
@@ -68,7 +73,7 @@ namespace _467_Excuse_UsingDispose
             }
 
             saveFileDialog1.InitialDirectory = selectFolder;
-            saveFileDialog1.Filter = "Excuse File (*.excuse)|*.excuse | All File(*.*)|*.*";
+            saveFileDialog1.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
             DialogResult result = saveFileDialog1.ShowDialog();
 
             if (result == DialogResult.OK )
@@ -82,10 +87,10 @@ namespace _467_Excuse_UsingDispose
         {
             if (CheckChange())
             {
+             
                 openFileDialog1.InitialDirectory = selectFolder;
-                openFileDialog1.Filter = "Excuse File (*.excuse)|*.excuse | All File(*.*)|*.*";
-                openFileDialog1.FileName = ExcuseBox.Text + ".excuse";
-                //openFileDialog1.FileName = ExcuseBox.Text + ".txt";
+                openFileDialog1.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
+                openFileDialog1.FileName = ExcuseBox.Text + ".txt";
                 DialogResult result = openFileDialog1.ShowDialog();
 
                 if (result == DialogResult.OK)
@@ -100,19 +105,29 @@ namespace _467_Excuse_UsingDispose
 
         private void RandomBtn_Click(object sender, EventArgs e)
         {
-            string[] fileName = Directory.GetFiles(selectFolder, ".excuse");
+            /*
+            string[] fileName = Directory.GetFiles(selectFolder, "*.txt");
             if (fileName.Length ==0)
             {
                 MessageBox.Show("這邊沒有藉口檔，需要指定新資料夾");
             }
             else
+            {*/
+            try
             {
-                if (CheckChange()==true)
+                if (CheckChange() == true)
                 {
                     CurrentExcuse = new Excuse(random, selectFolder);
                     UpdateForm(false);
                 }
             }
+            catch (Exception)
+            {
+
+                MessageBox.Show("這邊沒有藉口檔，需要指定新資料夾");
+            }
+           
+            //}
 
            
         }
